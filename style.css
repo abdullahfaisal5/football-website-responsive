@@ -99,7 +99,8 @@ a {
 /*----------------------- Media quieries -----------------*/
 @media only screen and (max-width: 688px) {
 
-    .banner-area {
+    .banner-area,
+    .players-area {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -126,12 +127,26 @@ a {
     }
 
     .players-area {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+
     }
 
     .player {
-        margin: 0, 15px;
-        padding: 15px;
+
+        margin-right: 90px;
+        padding: 30px;
     }
+
+    .footer img {
+        width: 80%;
+        margin-right: 10px;
+    }
+
+    .footer {
+        width: 75%;
+    }
+
+    /* .player-profile img {
+        width: 100%; */
 }
